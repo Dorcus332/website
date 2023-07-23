@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Ambassadors of greatness organization</title>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="validation.js"></script>
 </head>
 
 <body>
@@ -55,6 +56,23 @@
             <div class="card">
                 <h2>Follow us on all social media platforms</h2>
             </div>
+        </div>
+
+        <div class="form validation">
+            <h1> Form Validation </h1>
+
+            <form id="myForm" onsubmit="validationForm(event)">
+                <label for="name">Name:</label>
+                <input type="name" id="name" name="name"><br>
+                <span id="nameError" class="error"></span><br>
+
+                <label for="email">Email:</label>
+                <input type="type" id="email" name="email"><br>
+                <span id="emailError" class="error"></span><br>
+
+                <input type="submit" value="Submit">
+
+            </form>
         </div>
 
     </div>

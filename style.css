@@ -1,4 +1,4 @@
-li {
+.nav li {
     list-style-type: none;
     display: inline-block;
     padding: 5px;
@@ -7,6 +7,10 @@ li {
 
 body {
     background-color: burlywood;
+}
+
+.error {
+    color: red;
 }
 
 #nav {
